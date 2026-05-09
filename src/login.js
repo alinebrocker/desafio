@@ -37,7 +37,7 @@ export function realizarLogin(email, senha) {
   }
 
   if (usuario.expirado) {
-    return 'Creddencial expirada. Renove suas credenciais!'
+    return 'Credencial expirada. Renove suas credenciais!'
   }
 
   if (usuario.senha !== senha) {
